@@ -1,0 +1,38 @@
+#container {
+	padding: 20px;
+}
+
+#input, #output, #delete {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#input {
+	padding-right: 30px;
+	border-right: 1px solid black;
+}
+
+#output {
+	padding-left: 30px;
+	padding-right: 30px;
+	width: 500px;
+	overflow-x: auto;
+}
+
+#time {
+	font-style: italic;
+	font-size: 0.9em;
+}
+
+#cname {
+	color: #2980b9;
+	font-weight: bold;
+}
+
+#text {
+	color: #16a085;
+}
+
+#delete {
+	padding-left: 300px;
+}

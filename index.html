@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<title>index</title>
+	<link type="text/css" rel="stylesheet" href="style/css.css" />
+</head>
+<body>
+
+	<div id="container">
+		<div id=input>
+
+			<form name="inputForm">
+				<p>Chatname:<br />
+				   <input type="text" name="chatname" autofocus />
+				</p>
+				<p>Your message:<br />
+				   <textarea rows="5" cols="25" name="message"></textarea>
+				</p>
+				<input type="submit" name="submit" value="Post message" />
+			</form><br /><br />
+
+		</div>
+		<div id="output">
+			<p>Loading logs...</p>
+		</div>
+		<div id="delete">
+			<button id="deleteLogs">Truncate database!</button>
+		<div>
+	</div>
+
+<script src="scripts/script.js"></script>
+</body>
+</html>
